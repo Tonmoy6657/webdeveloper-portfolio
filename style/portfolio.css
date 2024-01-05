@@ -3,10 +3,12 @@ body{
 }
 nav > ul {
     display: flex;
+    align-items: center;
 }
 nav li{
    list-style: none;
-   margin-right: 51px;   
+   margin-right: 51px; 
+   align-items: center;  
 }
 .nav-title{
     color: var(--Dark-01, #181818);
@@ -19,6 +21,9 @@ nav li{
 }
 nav{
     display: flex;
+    justify-content: space-between;
+    margin: 0px 200px
+
 }
 nav a{
     text-decoration: none;
@@ -27,4 +32,24 @@ nav a{
 .btn-primary{
     border-radius: 5px;
     background: #FD6E0A;
+    border:0;
+   color: white;
+    font-size: 20px;
+font-weight: 700;
+padding: 18px 35px 19px 36px;
+}
+
+
+
+
+.header{
+    background: #FFF8F3;
+}
+.banner{
+padding: 30px 30px 30px 150px;
+display: flex;
+align-items: center;
+}
+.profile-pic{
+    width: 500px;
 }
